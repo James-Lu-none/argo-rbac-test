@@ -10,12 +10,12 @@ spec:
   source:
     path: helm/hello-word
     repoURL: >-
-      https://git.systex.com/2021_10B17C/ob17b20110002/code/marketing-cloud-ops.git
+      https://github.com/James-Lu-none/argo-rbac-test.git
     targetRevision: deployment/uat
     helm:
       releaseName: cloud-hello-world
       valueFiles:
-        - "../marketing-cloud-back-web/values-exp678.yaml"
+        - "../stage/values.yaml"
   project: marketing-cloud
 
   ## Sync policy
