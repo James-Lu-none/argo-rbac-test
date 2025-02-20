@@ -4,4 +4,3 @@ kind: Kustomization
 resources:
   - marketing-cloud-ns.yaml
   - rolebinding-admin.yaml
-  - marketing-cloud-tls-trust-store.yaml
