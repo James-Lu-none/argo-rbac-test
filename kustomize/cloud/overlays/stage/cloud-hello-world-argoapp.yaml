@@ -8,7 +8,7 @@ spec:
     namespace: test-cloud
     server: 'https://kubernetes.default.svc'
   source:
-    path: helm/hello-word
+    path: helm/hello-world
     repoURL: >-
       https://github.com/James-Lu-none/argo-rbac-test.git
     targetRevision: main
