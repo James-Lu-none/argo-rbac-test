@@ -11,7 +11,7 @@ spec:
     path: helm/hello-word
     repoURL: >-
       https://github.com/James-Lu-none/argo-rbac-test.git
-    targetRevision: deployment/uat
+    targetRevision: main
     helm:
       releaseName: cloud-hello-world
       valueFiles:
