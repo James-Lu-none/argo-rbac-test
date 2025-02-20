@@ -4,7 +4,7 @@
 
 ```shell
 argocd app create test-cloud-stage \
-  --project marketing-cloud \
+  --project default \
   --repo https://github.com/James-Lu-none/argo-rbac-test.git \
   --path kustomize/cloud/overlays/stage \
   --revision main \
