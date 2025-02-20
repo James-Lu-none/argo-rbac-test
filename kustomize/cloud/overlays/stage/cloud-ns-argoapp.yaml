@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: cloud-ns-resources
+  namespace: argocd
+spec:
+  destination:
+    namespace: test-cloud
+    server: 'https://kubernetes.default.svc'
+  source:
+    path: kustomize/cloud-ns/overlays/stage
+    repoURL: >-
+      https://github.com/James-Lu-none/argo-rbac-test.git
+    targetRevision: split-ns
+  project: marketing-cloud

@@ -6,3 +6,4 @@ namespace: test-cloud
 resources:
   - ../../base
   - cloud-hello-world-argoapp.yaml
+  - cloud-ns-argoapp.yaml
